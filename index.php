@@ -30,3 +30,9 @@
     <p>Connect QuickPOS with other tools effortlessly.</p>
   </div>
 </section>
+<section id="hero">
+  <h1>The Last POS System You’ll Ever Need</h1>
+  <p>Manage inventory, sales, and customers easily.</p>
+  <a href="#signup" class="btn-cta">Get Started for Free</a>
+  <img src="images/pos-mockup.png" alt="POS Mockup">
+</section>

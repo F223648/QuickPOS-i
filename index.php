@@ -1,11 +1,17 @@
-<header>
-  <div class="logo">QuickPOS</div>
-  <nav>
-    <ul>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#pricing">Pricing</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <a href="#signup" class="btn-signup">Sign Up</a>
-</header>
+<section id="features">
+  <div class="feature">
+    <img src="images/inventory-icon.png" alt="Inventory">
+    <h3>Inventory Management</h3>
+    <p>Easily track stock levels and orders.</p>
+  </div>
+  <div class="feature">
+    <img src="images/analytics-icon.png" alt="Analytics">
+    <h3>Sales Analytics</h3>
+    <p>View real-time sales reports and insights.</p>
+  </div>
+  <div class="feature">
+    <img src="images/integration-icon.png" alt="Integration">
+    <h3>Easy Integration</h3>
+    <p>Connect QuickPOS with other tools effortlessly.</p>
+  </div>
+</section>

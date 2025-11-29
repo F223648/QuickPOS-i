@@ -1,47 +1,3 @@
-<<<<<<< Updated upstream
-<header>
-  <div class="logo">QuickPOS</div>
-  <nav>
-    <ul>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#pricing">Pricing</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <a href="#signup" class="btn-signup">Sign Up</a>
-</header>
-
-<section id="features">
-  <div class="feature">
-    <img src="images/inventory-icon.png" alt="Inventory">
-    <h3>Inventory Management</h3>
-    <p>Easily track stock levels and orders.</p>
-  </div>
-  <div class="feature">
-    <img src="images/analytics-icon.png" alt="Analytics">
-    <h3>Sales Analytics</h3>
-    <p>View real-time sales reports and insights.</p>
-  </div>
-  <div class="feature">
-    <img src="images/integration-icon.png" alt="Integration">
-    <h3>Easy Integration</h3>
-    <p>Connect QuickPOS with other tools effortlessly.</p>
-  </div>
-</section>
-<section id="hero">
-  <h1>The Last POS System You’ll Ever Need</h1>
-  <p>Manage inventory, sales, and customers easily.</p>
-  <a href="#signup" class="btn-cta">Get Started for Free</a>
-  <img src="images/pos-mockup.png" alt="POS Mockup">
-</section> <footer>
-  <div class="social">
-    <a href="#">Facebook</a>
-    <a href="#">Twitter</a>
-    <a href="#">LinkedIn</a>
-  </div>
-  <p>&copy; 2025 QuickPOS. All rights reserved.</p>
-</footer>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +10,7 @@
 
 <header>
     <div class="logo">
-        <img src="https://i.postimg.cc/mg7pZt2g/pos-logo.png" alt="QuickPOS Logo">
+        <img src="https://i.postimg.cc/0jYfPNy9/8e7ac340-4c21-4a9c-b510-e01d31f77c00.png" alt="QuickPOS Logo">
         <span>QuickPOS</span>
     </div>
 
@@ -69,7 +25,7 @@
     <a href="#contact" class="btn-primary">Sign Up</a>
 </header>
 
-<!-- ========================= HERO SECTION ========================= -->
+
 <section class="hero">
     <div class="hero-text">
         <h1>The Last POS System You’ll Ever Need</h1>
@@ -78,35 +34,36 @@
     </div>
 
     <div class="hero-img">
-        <img src="https://i.postimg.cc/RZr9b08n/pos-mockup.png" alt="POS Mockup">
+        <img src="https://i.postimg.cc/nLd7KDCx/depositphotos-158349412-stock-photo-hand-working-cashier-machine.webp">
     </div>
 </section>
 
-<!-- ========================= FEATURES ========================= -->
+
 <section id="features" class="features">
     <h2>Powerful Features</h2>
     <div class="features-grid">
 
         <div class="feature-card">
-            <img src="https://i.postimg.cc/ZRfc9D4p/inventory.png">
+         <img src="https://i.postimg.cc/25qjJb0d/Sales-YTD-dashboard-example-1efebb.png" alt="Inventory Management">
             <h3>Inventory Management</h3>
             <p>Track stock levels, manage suppliers, and avoid running out.</p>
         </div>
 
         <div class="feature-card">
-            <img src="https://i.postimg.cc/FKQgK8B3/analytics.png">
+           <img src="https://i.postimg.cc/mgkTz1f3/premium-photo-1681426710520-7c56c9f563d2.jpg" alt="Sales Analytics">
+
             <h3>Sales Analytics</h3>
             <p>Gain insights with real-time dashboards and sales reports.</p>
         </div>
 
         <div class="feature-card">
-            <img src="https://i.postimg.cc/3x4CCm3z/integration.png">
+<img src="https://i.postimg.cc/ZR8mtrp0/depositphotos-135801916-stock-illustration-abstract-background-with-integrated-circles.jpg" alt="Easy Integration">
             <h3>Easy Integration</h3>
             <p>Connect with printers, scanners, and payment gateways easily.</p>
         </div>
 
         <div class="feature-card">
-            <img src="https://i.postimg.cc/nrj8fMPG/security.png">
+<img src="https://i.postimg.cc/rFnkky0D/preview16.jpg" alt="Secure & Reliable">
             <h3>Secure & Reliable</h3>
             <p>Your data is safe with enterprise-grade security.</p>
         </div>
@@ -114,7 +71,6 @@
     </div>
 </section>
 
-<!-- ========================= PRICING ========================= -->
 <section id="pricing" class="pricing">
     <h2>Pricing Plans</h2>
 
@@ -142,21 +98,11 @@
             <a href="#contact" class="btn-primary">Most Popular</a>
         </div>
 
-        <div class="price-card">
-            <h3>Enterprise</h3>
-            <p class="price">$99/month</p>
-            <ul>
-                <li>Unlimited Users</li>
-                <li>Custom Integrations</li>
-                <li>Dedicated Support</li>
-            </ul>
-            <a href="#contact" class="btn-secondary">Choose Plan</a>
-        </div>
+       
 
     </div>
 </section>
 
-<!-- ========================= CONTACT FORM ========================= -->
 <section id="contact" class="contact">
     <h2>Contact Us</h2>
 
@@ -171,7 +117,7 @@
     </form>
 </section>
 
-<!-- ========================= FOOTER ========================= -->
+
 <footer>
     <p>© 2025 QuickPOS. All rights reserved.</p>
     <div class="social">
@@ -183,4 +129,5 @@
 
 </body>
 </html>
->>>>>>> Stashed changes
+
+

@@ -33,3 +33,21 @@
   <a href="#signup" class="btn-cta">Get Started for Free</a>
   <img src="images/pos-mockup.png" alt="POS Mockup">
 </section>
+
+<section id="pricing">
+  <div class="plan basic">
+    <h3>Basic</h3>
+    <p>$10/month</p>
+    <p>Essential features</p>
+  </div>
+  <div class="plan pro">
+    <h3>Pro</h3>
+    <p>$30/month</p>
+    <p>Advanced features</p>
+  </div>
+  <div class="plan enterprise">
+    <h3>Enterprise</h3>
+    <p>$50/month</p>
+    <p>Full features</p>
+  </div>
+</section>

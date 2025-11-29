@@ -32,4 +32,11 @@
   <p>Manage inventory, sales, and customers easily.</p>
   <a href="#signup" class="btn-cta">Get Started for Free</a>
   <img src="images/pos-mockup.png" alt="POS Mockup">
-</section>
+</section> <footer>
+  <div class="social">
+    <a href="#">Facebook</a>
+    <a href="#">Twitter</a>
+    <a href="#">LinkedIn</a>
+  </div>
+  <p>&copy; 2025 QuickPOS. All rights reserved.</p>
+</footer>

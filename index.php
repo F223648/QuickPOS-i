@@ -1,3 +1,4 @@
+
 <header>
   <div class="logo">QuickPOS</div>
   <nav>
@@ -9,6 +10,8 @@
   </nav>
   <a href="#signup" class="btn-signup">Sign Up</a>
 </header>
+
+
 
 <section id="features">
   <div class="feature">

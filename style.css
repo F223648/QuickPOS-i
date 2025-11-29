@@ -1,35 +1,24 @@
-<<<<<<< Updated upstream
-header { display:flex; justify-content:space-between; align-items:center; padding:20px; background:#fff;}
-.logo { font-size:24px; font-weight:bold; }
-nav ul { display:flex; gap:20px; list-style:none; }
-nav a { text-decoration:none; color:#333; }
-.btn-signup { padding:10px 20px; background:#007bff; color:#fff; border-radius:5px; text-decoration:none; }
-.btn-signup:hover { background:#0056b3; }
 
-
-
-#hero { text-align:center; padding:100px 20px; background:#f8f9fa; }
-#hero h1 { font-size:48px; margin-bottom:20px; }
-#hero p { font-size:20px; margin-bottom:30px; }
-.btn-cta { padding:15px 30px; background:#28a745; color:#fff; border-radius:5px; text-decoration:none; }
-.btn-cta:hover { background:#218838; }
-#hero img { max-width:100%; height:auto; margin-top:30px; }
-=======
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f9f9f9;
+    font-family: 'Inter', Arial, sans-serif;
+    background: #f4f6f8;
     color: #333;
+    line-height: 1.6;
 }
 
-/* ===================== HEADER ===================== */
+a {
+    transition: all 0.3s ease;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 60px;
     background: #ffffff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -38,167 +27,321 @@ header {
 header .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #0066ff;
 }
 
 header .logo img {
-    height: 40px;
+    height: 45px;
 }
 
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 35px;
 }
 
 header nav ul li a {
     color: #333;
     text-decoration: none;
     font-weight: 500;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #0066ff;
 }
 
 .btn-primary {
-    background: #0066ff;
-    padding: 10px 20px;
+    background: linear-gradient(135deg,#0066ff,#3399ff);
+    padding: 12px 25px;
     color: #fff;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,102,255,0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,102,255,0.4);
 }
 
 .btn-secondary {
-    background: #e5e5e5;
-    padding: 10px 20px;
+    background: #f1f1f1;
+    padding: 12px 25px;
     color: #333;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 8px;
+    font-weight: 500;
 }
 
-/* ===================== HERO ===================== */
+.btn-secondary:hover {
+    background: #e0e0e0;
+}
+
+/* Hero Section */
 .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 40px;
+    padding: 80px 60px;
     background: #ffffff;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
 }
 
 .hero-text h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: #0066ff;
 }
 
 .hero-text p {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #555;
 }
 
 .hero-img img {
-    width: 450px;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transition: transform 0.4s ease;
 }
 
-/* ===================== FEATURES ===================== */
+.hero-img img:hover {
+    transform: scale(1.05);
+}
+
+/* Features Section */
 .features {
-    padding: 60px 40px;
+    padding: 80px 60px;
     text-align: center;
 }
 
+.features h2 {
+    font-size: 36px;
+    color: #0066ff;
+}
+
 .features-grid {
-    margin-top: 40px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    gap: 30px;
 }
 
 .feature-card {
     background: #fff;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .feature-card img {
-    width: 50px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 12px;
 }
 
-/* ===================== PRICING ===================== */
+.feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #0066ff;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Pricing Section */
 .pricing {
-    padding: 60px 40px;
-    background: #eef4ff;
+    padding: 80px 60px;
+    background: linear-gradient(to right, #eef4ff, #ffffff);
     text-align: center;
 }
 
+.pricing h2 {
+    font-size: 36px;
+    color: #0066ff;
+}
+
 .pricing-grid {
-    margin-top: 40px;
+    margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
 }
 
 .price-card {
     background: #fff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 40px 25px;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.price {
-    font-size: 28px;
-    color: #0066ff;
+.price-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.price-card h3 {
+    font-size: 22px;
     margin-bottom: 15px;
+    color: #0066ff;
+}
+
+.price-card .price {
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .popular {
-    border: 2px solid #0066ff;
+    border: 3px solid #0066ff;
+    position: relative;
 }
 
-/* ===================== CONTACT ===================== */
+.popular::before {
+    content: "Most Popular";
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0066ff;
+    color: #fff;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+/* Contact Section */
 .contact {
-    padding: 60px 40px;
+    padding: 80px 60px;
     text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    color: #0066ff;
 }
 
 .contact form {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    margin: auto;
-    gap: 15px;
+    width: 450px;
+    margin: 40px auto 0 auto;
+    gap: 18px;
 }
 
 .contact form input,
 .contact form textarea {
-    padding: 12px;
-    border-radius: 8px;
+    padding: 14px;
+    border-radius: 12px;
     border: 1px solid #ccc;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
-/* ===================== FOOTER ===================== */
+.contact form input:focus,
+.contact form textarea:focus {
+    border-color: #0066ff;
+    box-shadow: 0 0 6px rgba(0,102,255,0.2);
+    outline: none;
+}
+
+.contact button {
+    padding: 14px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
 footer {
-    padding: 20px;
+    padding: 30px 20px;
     text-align: center;
-    background: #111;
-    color: white;
-    margin-top: 50px;
+    background: #0d0d0d;
+    color: #fff;
 }
 
-/* ===================== RESPONSIVE ===================== */
-@media (max-width: 900px) {
+footer .social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+footer .social a:hover {
+    color: #0066ff;
+}
+
+/* Responsive Design */
+@media (max-width: 1100px) {
     .hero {
         flex-direction: column;
         text-align: center;
     }
 
     .hero-img img {
-        width: 90%;
-        margin-top: 20px;
+        width: 80%;
+        margin-top: 30px;
     }
 
     .features-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
     }
 
     .pricing-grid {
         grid-template-columns: 1fr;
     }
 }
->>>>>>> Stashed changes
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    .hero-img img {
+        width: 100%;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
+

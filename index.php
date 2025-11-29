@@ -1,4 +1,3 @@
-
 <header>
   <div class="logo">QuickPOS</div>
   <nav>
@@ -10,8 +9,6 @@
   </nav>
   <a href="#signup" class="btn-signup">Sign Up</a>
 </header>
-
-
 
 <section id="features">
   <div class="feature">
@@ -30,11 +27,9 @@
     <p>Connect QuickPOS with other tools effortlessly.</p>
   </div>
 </section>
-<section id="contact">
-  <form action="contact.php" method="POST">
-    <input type="text" name="name" placeholder="Name" required>
-    <input type="email" name="email" placeholder="Email" required>
-    <textarea name="message" placeholder="Message" required></textarea>
-    <button type="submit">Send</button>
-  </form>
+<section id="hero">
+  <h1>The Last POS System You’ll Ever Need</h1>
+  <p>Manage inventory, sales, and customers easily.</p>
+  <a href="#signup" class="btn-cta">Get Started for Free</a>
+  <img src="images/pos-mockup.png" alt="POS Mockup">
 </section>

@@ -1,8 +1,17 @@
 <?php
-if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])){
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $name = trim($_POST["name"]);
+    $email = trim($_POST["email"]);
+    $message = trim($_POST["message"]);
+
+    if (empty($name) || empty($email) || empty($message)) {
+        echo "Please fill all fields!";
+        exit;
+    }
+
+    // Simulated success
     header("Location: thank-you.html");
-    exit();
-} else {
-    echo "All fields required!";
+    exit;
 }
 ?>
